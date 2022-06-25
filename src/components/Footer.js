@@ -9,7 +9,7 @@ export default function Footer() {
             <div class="col-sm-12 col-md-6">
               <h6>About</h6>
               <p class="text-justify">
-                Blood In Need is an effort to make donation of blood easier. The
+                Organate is an effort to make donation of Organs easier. The
                 team has made consistent efforts to bring the project live. Each
                 and every teammate has provided their valuable contribution.
               </p>
@@ -18,7 +18,7 @@ export default function Footer() {
             <div class="col-xs-6 col-md-3">
               <h6>Tech Stack</h6>
               <ul class="footer-links">
-                <li>GraphQL</li>
+                <li>REST API</li>
                 <li>MongoDB</li>
                 <li>Express.js</li>
                 <li>Node.js</li>
@@ -33,7 +33,7 @@ export default function Footer() {
                 <li>
                   <a
                     target="_blank"
-                    href="https://github.com/Care-For-You-Blood/blood-in-need-frontend"
+                    href="https://github.com/Care-For-You-Blood/Organate-frontend"
                   >
                     Github Link for Frontend
                   </a>
@@ -41,7 +41,7 @@ export default function Footer() {
                 <li>
                   <a
                     target="_blank"
-                    href="https://github.com/Care-For-You-Blood/Blood-in-need-backend"
+                    href="https://github.com/Care-For-You-Blood/Organate-backend"
                   >
                     Github Link for Backend
                   </a>

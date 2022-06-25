@@ -18,7 +18,7 @@
   margin-left: -10px; /*  TO BE NOTED */
 }
 .curved {
-  width: 102%;
+  width: 100%;
 }
 .landing h4 {
   font-size: 20px;
@@ -265,7 +265,7 @@ select:focus {
   width: 400px;
 }
 .site-footer {
-  background-color: #c50f0f;
+  background-color: #8f4a89;
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;

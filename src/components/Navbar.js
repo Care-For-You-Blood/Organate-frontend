@@ -25,7 +25,7 @@ export default function Navbar() {
             <NavLink className="navbar-brand page-scroll" to="/">
               <span className="title mb-0 h3">
                 <img src={blood} className="blood-image" alt="Blood" />
-                Blood In Need
+               Organate
               </span>
             </NavLink>
           </div>
@@ -47,7 +47,7 @@ export default function Navbar() {
                     borderBottom: "2px solid #c50f0f",
                   }}
                 >
-                  NEED BLOOD
+                  NEED ORGANS
                 </NavLink>
               </li>
 

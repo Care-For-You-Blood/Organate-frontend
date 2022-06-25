@@ -7,11 +7,15 @@ export default function Landing() {
   return (
     <>
       <div className="landing">
-        <img className="curved" src={curved} alt="curved" />
+        <img className="curved" src={curved} alt="curved"
+        style={{
+          height: "55rem",
+        }}
+        />
 
         <div className="center">
-          <h4 className="text-center"> Blood is meant to circulate</h4>
-          <h1 className="text-center"> Pass it Around</h1>
+          <h4 className="text-center"> Give yourself and those in need an elixir of life by</h4>
+          <h1 className="text-center">Pledging your organs</h1>
           <button
             type="button"
             className="btn btn-light need-blood-btn"
@@ -19,7 +23,7 @@ export default function Landing() {
               history.push("/profile");
             }}
           >
-            Need Blood?
+            Need Organs?
           </button>
         </div>
       </div>
