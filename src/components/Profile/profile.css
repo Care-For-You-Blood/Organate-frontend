@@ -32,6 +32,17 @@
 .card h4 {
   font-size: 22px;
 }
+.chat-card-text{
+  font-weight: bold;
+  background: #0069CC;
+  color: aliceblue;
+  border-radius: 1rem;
+  padding: 2px;
+  width: 20rem;
+}
+.chat{
+  padding-bottom: 1rem;
+}
 small {
   float: left;
   font-size: 18px;

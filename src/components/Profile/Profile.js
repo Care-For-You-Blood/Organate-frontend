@@ -42,6 +42,7 @@ export default function Profile() {
             <i className="fa fa-heartbeat heart" aria-hidden="true"></i>Find
             Organ Donors
           </h4>
+
           <p className="card-text">
             <small className="text-muted">
               Find organ donors in your city and request them organs{" "}
@@ -51,6 +52,21 @@ export default function Profile() {
             Find <i className="fa fa-arrow-circle-right" aria-hidden="true"></i>{" "}
           </Link>
         </div>
+      </div>
+
+      <div
+        className="chat"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <Link className="chat-card-text" to="/findblood">
+          <h4 className="chat-card-text">
+            <i className="fa fa-wechat" aria-hidden="true"></i>
+            CHAT WITH DOC?
+          </h4>
+        </Link>
       </div>
     </>
   );

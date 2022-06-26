@@ -44,12 +44,25 @@ export default function Navbar() {
                   to="/profile"
                   activeStyle={{
                     fontWeight: "bold",
-                    borderBottom: "2px solid #c50f0f",
+                    borderBottom: "2px solid #0069CC",
                   }}
                 >
                   NEED ORGANS
                 </NavLink>
               </li>
+              <li className="">
+              <NavLink
+                className="page-scroll"
+                to="/profile"
+                activeStyle={{
+                  fontWeight: "bold",
+                  borderBottom: "2px solid #0069CC",
+                }}
+              >
+              CHAT WITH DOC?
+              </NavLink>
+            </li>
+            
 
               {user ? (
                 <>
