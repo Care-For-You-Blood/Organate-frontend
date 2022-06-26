@@ -32,8 +32,7 @@ export default function FindBlood() {
             <img src={sorry} alt="sorry" className="sorry-img" />
             <h3 className="text-center sorry-text">
               {" "}
-              "Sorry, there are no donors available in your city with same blood
-              group. Try changing the blood group or your location in the edit
+              "Sorry, there are no donors available in your city with required organ. Try changing the blood group or your location in the edit
               profile menu"
             </h3>
           </div>
@@ -42,7 +41,7 @@ export default function FindBlood() {
         <>
           <h2 className="text-center heading">
             {" "}
-            Donors in your city with same blood group
+            Donors in your city with required organ
           </h2>
           <Link to="/profile" className="back">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>Back
@@ -52,8 +51,8 @@ export default function FindBlood() {
               <tr>
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
-                <th scope="col">Blood Group</th>
-                <th scope="col">Request Blood</th>
+                <th scope="col">Required Organ</th>
+                <th scope="col">Request Organ</th>
               </tr>
             </thead>
             <tbody>

@@ -72,20 +72,20 @@ function EditProfile() {
         <div className="main-signup">
           <h1>Edit</h1>
           <div className="signup-form">
-            <label htmlFor="blood_group">Blood group</label>
+            <label htmlFor="blood_group">Needed Organ</label>
             <select
               name="blood_grp"
               value={bloodGroup}
               onChange={handleChange("bloodGroup")}
             >
-              <option value="AB+">AB+</option>
-              <option value="AB-">AB-</option>
-              <option value="A+">A+</option>
-              <option value="A-">A-</option>
-              <option value="B+">B+</option>
-              <option value="B-">B-</option>
-              <option value="O+">O+</option>
-              <option value="O-">O-</option>
+              <option value="Liver">Liver</option>+{" "}
+              <option value="Kidneys">Kidneys</option>+{" "}
+              <option value="Lungs">Lungs</option>+{" "}
+              <option value="Heart">Heart</option>+{" "}
+              <option value="Pancreas">Pancreas</option>+{" "}
+              <option value="Intestines">Intestines</option>+{" "}
+              <option value="Eye">Eye</option>+{" "}
+              <option value="Bone Marrow">Bone Marrow</option>
             </select>
             <label htmlFor="address">State</label>
             <select name="state" value={state} onChange={handleChange("state")}>

@@ -53,7 +53,7 @@ export default function Login() {
         <div className="top">
           <div>
             <div className="logo">
-              <h2>Blood In Need</h2>
+              <h2>Organate</h2>
             </div>
           </div>
           <p>Login to become a part of this journey</p>

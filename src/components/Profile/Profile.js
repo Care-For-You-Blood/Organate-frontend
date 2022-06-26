@@ -15,7 +15,7 @@ export default function Profile() {
       <div className="authorization">
         {" "}
         <img src={authorized} className="authorized" alt="Authorization" />
-        <h4> You must be logged in to the platform to request blood</h4>{" "}
+        <h4> You must be logged in to the platform to request organs</h4>{" "}
       </div>{" "}
     </>
   ) : (
@@ -40,11 +40,11 @@ export default function Profile() {
         <div className="card-body">
           <h4 className="card-text">
             <i className="fa fa-heartbeat heart" aria-hidden="true"></i>Find
-            Blood Donors
+            Organ Donors
           </h4>
           <p className="card-text">
             <small className="text-muted">
-              Find blood donors in your city and request them blood{" "}
+              Find organ donors in your city and request them organs{" "}
             </small>
           </p>
           <Link className="find" to="/findblood">

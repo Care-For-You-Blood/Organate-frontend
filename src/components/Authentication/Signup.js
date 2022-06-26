@@ -48,7 +48,7 @@ function Signup() {
           <div className="top">
             <div>
               <div className="logo">
-                <h2>Blood In Need</h2>
+                <h2>Organate</h2>
               </div>
             </div>
             <p>Signup to become a part of this journey</p>
@@ -89,21 +89,21 @@ function Signup() {
               value={password}
               onChange={handleChange("password")}
             />
-            <label htmlFor="blood_group">Blood group</label>
+            <label htmlFor="blood_group">Required Organ</label>
             <select
               name="blood_grp"
               value={bloodGroup}
               onChange={handleChange("bloodGroup")}
             >
               <option defaultValue>...</option>
-              <option value="AB+">AB+</option>
-              <option value="AB-">AB-</option>
-              <option value="A+">A+</option>
-              <option value="A-">A-</option>
-              <option value="B+">B+</option>
-              <option value="B-">B-</option>
-              <option value="O+">O+</option>
-              <option value="O-">O-</option>
+              <option value="Liver">Liver</option>
++              <option value="Kidneys">Kidneys</option>
++              <option value="Lungs">Lungs</option>
++              <option value="Heart">Heart</option>
++              <option value="Pancreas">Pancreas</option>
++              <option value="Intestines">Intestines</option>
++              <option value="Eye">Eye</option>
++              <option value="Bone Marrow">Bone Marrow</option>
             </select>
             <label htmlFor="address">State</label>
             <select name="state" value={state} onChange={handleChange("state")}>

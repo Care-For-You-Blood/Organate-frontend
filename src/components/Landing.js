@@ -23,7 +23,10 @@ export default function Landing() {
               history.push("/profile");
             }}
           >
-            Need Organs?
+           <span style={{
+              fontSize: "1.5rem",
+              fontWeight: "bold",
+           }}>Need Organs?</span>
           </button>
         </div>
       </div>
@@ -41,7 +44,7 @@ export default function Landing() {
               </h4>
               <p>
                 {" "}
-                With geo-search feature, finding blood donors has become easier
+                With geo-search feature, finding organ donors has become easier
                 than ever. Enter your location and you will be shown the donors
                 available in the closest proximity
               </p>
@@ -53,7 +56,7 @@ export default function Landing() {
                 Connect
               </h4>
               <p>
-                No delays in receiving blood anymore. Connect with donors
+                No delays in receiving organs anymore. Connect with donors
                 <br /> and recipients in real time
               </p>
             </div>
@@ -65,7 +68,7 @@ export default function Landing() {
         <p>
           {" "}
           Here are some tips to put your mind at ease during
-          <br /> the blood donation process.
+          <br /> the organs donation process.
         </p>
         <div className="container">
           <div className="tips-info">
@@ -86,7 +89,7 @@ export default function Landing() {
               <li>
                 Do carry your identify indentification forms e.g. Driver's
               </li>
-              <li>Drink 2 cups of water before donating blood</li>
+              <li>Drink 2 cups of water before donating organs</li>
               <li> Avoid fast food before donation</li>
             </ul>
           </div>
@@ -95,7 +98,7 @@ export default function Landing() {
             <hr className="horizontal" />
             <ul>
               <li>
-                Reward yourself with a snack immediately after donating blood
+                Reward yourself with a snack immediately after donating organs
               </li>
               <li>Drink more liquids over a period of 24 hours</li>
               <li>Remove the bandage after few hours</li>

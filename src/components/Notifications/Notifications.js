@@ -33,8 +33,8 @@ export default function Notifications() {
                       {item.name}
                     </h4>
                     <p className="card-text">
-                      {item.name} is requesting you blood. Help them by donating
-                      blood!
+                      {item.name} is requesting you organs. Help them by donating
+                      organs!
                     </p>
                     <a
                       href={`tel: ${item.phoneNumber}`}
