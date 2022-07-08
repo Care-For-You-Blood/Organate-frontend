@@ -1,20 +1,27 @@
 import React from "react";
 import curved from "../assets/curved.png";
 import vector from "../assets/vector.png";
+import gym from "../assets/gym.jpg";
 import { useHistory } from "react-router";
 export default function Landing() {
   const history = useHistory();
   return (
     <>
       <div className="landing">
-        <img className="curved" src={curved} alt="curved"
-        style={{
-          height: "55rem",
-        }}
+        <img
+          className="curved"
+          src={curved}
+          alt="curved"
+          style={{
+            height: "55rem",
+          }}
         />
 
         <div className="center">
-          <h4 className="text-center"> Give yourself and those in need an elixir of life by</h4>
+          <h4 className="text-center">
+            {" "}
+            Give yourself and those in need an elixir of life by
+          </h4>
           <h1 className="text-center">Pledging your organs</h1>
           <button
             type="button"
@@ -23,10 +30,14 @@ export default function Landing() {
               history.push("/profile");
             }}
           >
-           <span style={{
-              fontSize: "1.5rem",
-              fontWeight: "bold",
-           }}>Need Organs?</span>
+            <span
+              style={{
+                fontSize: "1.5rem",
+                fontWeight: "bold",
+              }}
+            >
+              Need Organs?
+            </span>
           </button>
         </div>
       </div>
@@ -37,6 +48,17 @@ export default function Landing() {
             <img src={vector} alt="vector" />
           </div>
           <div className="points">
+            <div className="bullets">
+              <h4>
+                <i className="fa fa-location-arrow" aria-hidden="true"></i>
+                Oragante-Gym
+              </h4>
+              <p>
+                {" "}
+                We have a gym in the heart of the application, where you can
+                find the best heath care advices and required excercise.
+              </p>
+            </div>
             <div className="bullets">
               <h4>
                 <i className="fa fa-location-arrow" aria-hidden="true"></i>
@@ -60,6 +82,22 @@ export default function Landing() {
                 <br /> and recipients in real time
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="gym" id="gym">
+        <h2>How to keep your organs exuberant!</h2>
+        <div className="gym-body">
+          <div className="image">
+            <img src={gym} alt="gym" />
+          </div>
+
+          <div className="gym-content">
+            <p>
+              Look what we got for inculcating a healthy habit <br /> Look what
+              we got for inculcating a healthy habit <br /> Look what we got for
+              inculcating a healthy habit
+            </p>
           </div>
         </div>
       </div>

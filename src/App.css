@@ -20,7 +20,7 @@
   margin-left: -10px; /*  TO BE NOTED */
 }
 .curved {
-  width: 102%;
+  width: 100%;
 }
 .landing h4 {
   font-size: 20px;
@@ -88,6 +88,29 @@
 .bullets i {
   color: #c50f0f;
   margin-right: 5px;
+}
+
+.gym {
+  background: #f5f5f5;
+  padding-bottom: 70px;
+}
+.gym h2 {
+  padding-top: 60px;
+}
+.gym h2,
+p {
+  text-align: center;
+}
+.gym-body img {
+  height: 400px;
+  width: 400px;
+  margin:5rem;
+  border-radius: 5rem;
+}
+.gym-content {
+  display: flex;
+  justify-content: right;
+  margin-right: 4rem;
 }
 
 .tips {

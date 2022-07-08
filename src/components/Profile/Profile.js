@@ -61,7 +61,11 @@ export default function Profile() {
           justifyContent: "center",
         }}
       >
-        <Link className="chat-card-text" to="/findblood">
+        <Link
+          className="chat-card-text"
+          to={{ pathname: "http://organate-chat.vercel.app/" }}
+          target="_blank"
+        >
           <h4 className="chat-card-text">
             <i className="fa fa-wechat" aria-hidden="true"></i>
             CHAT WITH DOC?

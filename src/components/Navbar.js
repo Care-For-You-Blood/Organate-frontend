@@ -25,7 +25,7 @@ export default function Navbar() {
             <NavLink className="navbar-brand page-scroll" to="/">
               <span className="title mb-0 h3">
                 <img src={blood} className="blood-image" alt="Blood" />
-               Organate
+                Organate
               </span>
             </NavLink>
           </div>
@@ -51,18 +51,18 @@ export default function Navbar() {
                 </NavLink>
               </li>
               <li className="">
-              <NavLink
-                className="page-scroll"
-                to="/profile"
-                activeStyle={{
-                  fontWeight: "bold",
-                  borderBottom: "2px solid #0069CC",
-                }}
-              >
-              CHAT WITH DOC?
-              </NavLink>
-            </li>
-            
+                <NavLink
+                  className="page-scroll"
+                  to={{ pathname: "http://organate-chat.vercel.app/" }}
+                  target="_blank"
+                  activeStyle={{
+                    fontWeight: "bold",
+                    borderBottom: "2px solid #0069CC",
+                  }}
+                >
+                  CHAT WITH DOC?
+                </NavLink>
+              </li>
 
               {user ? (
                 <>
