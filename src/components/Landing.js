@@ -19,7 +19,6 @@ export default function Landing() {
 
         <div className="center">
           <h4 className="text-center">
-            {" "}
             Give yourself and those in need an elixir of life by
           </h4>
           <h1 className="text-center">Pledging your organs</h1>
@@ -42,7 +41,13 @@ export default function Landing() {
         </div>
       </div>
       <div className="features">
-        <h2> Features of this App</h2>
+        <h2
+          style={{
+            fontWeight: "bold",
+          }}
+        >
+          Features of this App
+        </h2>
         <div className="feature-body">
           <div className="image">
             <img src={vector} alt="vector" />
@@ -54,18 +59,13 @@ export default function Landing() {
                 Oragante-Gym
               </h4>
               <p>
-                {" "}
                 We have a gym in the heart of the application, where you can
                 find the best heath care advices and required excercise.
               </p>
             </div>
             <div className="bullets">
-              <h4>
-                <i className="fa fa-location-arrow" aria-hidden="true"></i>
-                Geo Search
-              </h4>
+              <h4>Geo Search</h4>
               <p>
-                {" "}
                 With geo-search feature, finding organ donors has become easier
                 than ever. Enter your location and you will be shown the donors
                 available in the closest proximity
@@ -73,7 +73,6 @@ export default function Landing() {
             </div>
             <div className="bullets">
               <h4>
-                {" "}
                 <i className="fa fa-clock-o" aria-hidden="true"></i>Real Time
                 Connect
               </h4>
@@ -86,25 +85,120 @@ export default function Landing() {
         </div>
       </div>
       <div className="gym" id="gym">
-        <h2>How to keep your organs exuberant!</h2>
-        <div className="gym-body">
+        <h2
+          style={{
+            fontWeight: "bold",
+          }}
+        >
+          How to keep your organs exuberant!
+        </h2>
+        <div className="gym-body" style={{ display: "flex" }}>
           <div className="image">
             <img src={gym} alt="gym" />
           </div>
 
-          <div className="gym-content">
-            <p>
-              Look what we got for inculcating a healthy habit <br /> Look what
-              we got for inculcating a healthy habit <br /> Look what we got for
-              inculcating a healthy habit
-            </p>
+          <div className="points">
+            <div className="bullets">
+              <h4
+                style={{
+                  color: "#D73D66",
+                  fontWeight: "bold",
+                }}
+              >
+                Exercise controls weight
+              </h4>
+              <hr className="horizontal" />
+              <p>
+                Exercise can help prevent excess weight gain or help maintain
+                weight loss. When you engage in physical activity, you burn
+                calories. The more intense the activity, the more calories you
+                burn.
+              </p>
+            </div>
+            <div className="bullets">
+              <h4
+                style={{
+                  color: "#D73D66",
+                  fontWeight: "bold",
+                }}
+              >
+                Exercise combats diseases
+              </h4>
+              <hr className="horizontal" />
+              <p>
+                Worried about heart disease? Hoping to prevent high blood
+                pressure? No matter what your current weight is, being active
+                boosts high-density lipoprotein (HDL) cholesterol.
+              </p>
+            </div>
+            <div className="bullets">
+              <h4
+                style={{
+                  color: "#D73D66",
+                  fontWeight: "bold",
+                }}
+              >
+                Exercise improves mood
+              </h4>
+              <hr className="horizontal" />
+              <p>
+                Need an emotional lift? Or need to destress after a stressful
+                day? A gym session or brisk walk can help.
+              </p>
+            </div>
+            <div className="bullets">
+              <h4
+                style={{
+                  color: "#D73D66",
+                  fontWeight: "bold",
+                }}
+              >
+                Exercise improves mood
+              </h4>
+              <hr className="horizontal" />
+              <p>
+                Need an emotional lift? Or need to destress after a stressful
+                day? A gym session or brisk walk can help.
+              </p>
+            </div>
           </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginTop: "5rem",
+          }}
+        >
+          <button
+            type="button"
+            className="btn btn-success need-blood-btn"
+            onClick={() => {
+              window.open("https://organate-fitness.vercel.app/",
+               "_blank");
+            }}
+          >
+            <span
+              style={{
+                fontSize: "1.5rem",
+                fontWeight: "bold",
+              }}
+            >
+              Welcome to Organate-Fitness-Corner !
+            </span>
+          </button>
         </div>
       </div>
       <div className="tips" id="tips">
-        <h2> Tips</h2>
-        <p>
+        <h2
+          style={{
+            fontWeight: "bold",
+          }}
+        >
           {" "}
+          Tips
+        </h2>
+        <p>
           Here are some tips to put your mind at ease during
           <br /> the organs donation process.
         </p>
