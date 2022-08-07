@@ -153,12 +153,13 @@ export default function Landing() {
                   fontWeight: "bold",
                 }}
               >
-                Exercise improves mood
+                Exercise boosts brain power
               </h4>
               <hr className="horizontal" />
               <p>
-                Need an emotional lift? Or need to destress after a stressful
-                day? A gym session or brisk walk can help.
+                Exercise improves Brain by reducing anxiety, depression,
+                and negative mood and by improving self-esteem and cognitive
+                function.
               </p>
             </div>
           </div>
@@ -174,8 +175,7 @@ export default function Landing() {
             type="button"
             className="btn btn-success need-blood-btn"
             onClick={() => {
-              window.open("https://organate-fitness.vercel.app/",
-               "_blank");
+              window.open("https://organate-fitness.vercel.app/", "_blank");
             }}
           >
             <span
