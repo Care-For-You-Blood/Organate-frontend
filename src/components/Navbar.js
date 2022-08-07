@@ -53,7 +53,7 @@ export default function Navbar() {
               <li className="">
                 <NavLink
                   className="page-scroll"
-                  to={{ pathname: "http://organate-chat.vercel.app/" }}
+                  to={{ pathname: "https://organate-chat.netlify.app/" }}
                   target="_blank"
                   activeStyle={{
                     fontWeight: "bold",

@@ -63,7 +63,7 @@ export default function Profile() {
       >
         <Link
           className="chat-card-text"
-          to={{ pathname: "http://organate-chat.vercel.app/" }}
+          to={{ pathname: "https://organate-chat.netlify.app/" }}
           target="_blank"
         >
           <h4 className="chat-card-text">

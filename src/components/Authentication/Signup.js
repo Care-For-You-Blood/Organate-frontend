@@ -22,15 +22,8 @@ function Signup() {
   const [cities, setcities] = useState([]);
   const [errors, seterrors] = useState([]);
   const [addUser, { loading }] = useMutation(ADD_USER);
-  const {
-    name,
-    emailId,
-    password,
-    phoneNumber,
-    bloodGroup,
-    state,
-    city,
-  } = userdetails;
+  const { name, emailId, password, phoneNumber, bloodGroup, state, city } =
+    userdetails;
 
   useEffect(() => {
     var cities = indianCities.cities.filter((item) => item.state === state);
@@ -96,14 +89,14 @@ function Signup() {
               onChange={handleChange("bloodGroup")}
             >
               <option defaultValue>...</option>
-              <option value="Liver">Liver</option>
-+              <option value="Kidneys">Kidneys</option>
-+              <option value="Lungs">Lungs</option>
-+              <option value="Heart">Heart</option>
-+              <option value="Pancreas">Pancreas</option>
-+              <option value="Intestines">Intestines</option>
-+              <option value="Eye">Eye</option>
-+              <option value="Bone Marrow">Bone Marrow</option>
+              <option value="Liver">Liver</option>+{" "}
+              <option value="Kidneys">Kidneys</option>+{" "}
+              <option value="Lungs">Lungs</option>+{" "}
+              <option value="Heart">Heart</option>+{" "}
+              <option value="Pancreas">Pancreas</option>+{" "}
+              <option value="Intestines">Intestines</option>+{" "}
+              <option value="Eye">Eye</option>+{" "}
+              <option value="Bone Marrow">Bone Marrow</option>
             </select>
             <label htmlFor="address">State</label>
             <select name="state" value={state} onChange={handleChange("state")}>
